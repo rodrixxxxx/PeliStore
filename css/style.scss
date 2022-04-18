@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+@import "menu";
+@import "footer";
+@import "body";
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -10,16 +13,12 @@ html {
   font-size: 62.5%;
 }
 
+/*------------------VARIABLES-------------------*/
+$colorverde: rgb(157, 244, 161);
+
 /*-------------------ETIQUETAS-------------------*/
 
-body {
-  background-image: url(../img/fondogeneral.png);
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  flex-wrap: wrap;
-}
+
 
 h1 {
   color: black;
@@ -40,39 +39,9 @@ p {
   margin-bottom: 1rem;
 }
 
-nav {
-  background-color: rgb(157, 244, 161);
-  width: auto;
 
-  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 15px;
-    margin-left: 15px;
 
-    li {
-      font-size: 3.5rem;
 
-      a {
-        text-decoration: none;
-        color: white;
-      }
-    }
-  }
-}
-
-footer {
-  background-color: rgb(157, 244, 161);
-  padding: 40px 0;
-  width: auto;
-  margin-top: auto;
-
-  div img {
-    text-align: center;
-  }
-}
 
 /*-------------------GRIDS-------------------*/
 
@@ -164,6 +133,17 @@ footer {
   border-color: rgb(232, 227, 210);
   border-width: 5px;
 }
+
+.noticiasBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
 
 /*-------------------ANIMACIONES-------------------*/
 
