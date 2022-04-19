@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
-@import "menu";
+@import "nav";
 @import "footer";
 @import "body";
+
+/*-------------------VARIABLES-------------------*/
+$mapa: (
+  h1: 3rem,
+  h2: 2rem,
+  h3: 1rem,
+);
+
+$colorverde: rgb(157, 244, 161);
+
+$h1: map-get($map:$mapa,$key:h1);
+$h2: map-get($map:$mapa,$key:h2);
+$h3: map-get($map:$mapa,$key:h3);
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -13,22 +26,19 @@ html {
   font-size: 62.5%;
 }
 
-/*------------------VARIABLES-------------------*/
-$colorverde: rgb(157, 244, 161);
-
 /*-------------------ETIQUETAS-------------------*/
 
 
 
 h1 {
-  color: black;
-  font-size: 3rem;
+  font-size: $h1;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 h2 {
+  font-size: $h2;
   margin-top: 1rem;
 }
 

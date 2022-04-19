@@ -1,44 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap");
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-/*------------------VARIABLES-------------------*/
-/*-------------------ETIQUETAS-------------------*/
-body {
-  background-image: url(../img/fondogeneral.png);
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  flex-wrap: wrap;
-}
-
-h1 {
-  color: black;
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-h2 {
-  margin-top: 1rem;
-}
-
-p {
-  font-size: 2rem;
-  line-height: 2.4rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
 nav {
   background-color: rgb(157, 244, 161);
   width: auto;
@@ -67,6 +27,46 @@ footer {
 }
 footer div img {
   text-align: center;
+}
+
+body {
+  background-image: url(../img/fondogeneral.png);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+/*-------------------VARIABLES-------------------*/
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*-------------------ETIQUETAS-------------------*/
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*-------------------GRIDS-------------------*/
