@@ -2,6 +2,7 @@
 @import "nav";
 @import "footer";
 @import "body";
+@import "contacto";
 
 /*-------------------VARIABLES-------------------*/
 $mapa: (
@@ -28,8 +29,6 @@ html {
 
 /*-------------------ETIQUETAS-------------------*/
 
-
-
 h1 {
   font-size: $h1;
   text-align: center;
@@ -49,39 +48,11 @@ p {
   margin-bottom: 1rem;
 }
 
-
-
-
-
-/*-------------------GRIDS-------------------*/
-
-/*---index_peliculas---*/
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/*---contactos---*/
-
-.grid-container-contacto {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
-}
-
-.contact1 {
-  grid-column: 1 /span 2;
-}
-
-.contact2 {
-  grid-row: 2 / 3;
-}
-
 /*-------------------CLASES-------------------*/
+
+.button_font_size {
+  font-size: 2rem;
+}
 
 .textCenter {
   text-align: center;
@@ -139,9 +110,7 @@ p {
 }
 
 .border {
-  border-style: solid;
-  border-color: rgb(232, 227, 210);
-  border-width: 5px;
+  border: 10px solid red;
 }
 
 .noticiasBox {
