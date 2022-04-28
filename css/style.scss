@@ -123,6 +123,19 @@ p {
   flex-wrap: wrap;
 }
 
+.botonPeliscompras{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 10rem;
+  height: 5rem;
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
+  font-size: medium;
+}
 
 /*-------------------ANIMACIONES-------------------*/
 
