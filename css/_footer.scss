@@ -1,10 +1,17 @@
 footer {
-    background-color: $colorverde;
-    padding: 40px 0;
-    width: auto;
-    margin-top: auto;
-  
-    div img {
-      text-align: center;
-    }
+  background-color: $colorverde;
+  // padding: 40px 0;
+  width: auto;
+  position: inherit;
+  margin-top: auto;
+  margin-right: 0;
+  img {
+    width: 100%;
   }
+  div img {
+    text-align: center;
+  }
+  .row {
+    margin-right: 0;
+  }
+}

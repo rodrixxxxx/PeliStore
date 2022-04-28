@@ -1,8 +1,10 @@
 body {
-    background-image: url(../img/fondogeneral.png);
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    flex-wrap: wrap;
-  }
+  background-image: url(../img/fondogeneral.png);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
